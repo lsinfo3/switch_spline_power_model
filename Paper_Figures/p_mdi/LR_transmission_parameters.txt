@@ -1,0 +1,8 @@
+Regular
+   Bias Current        : 31.11 mA
+   TX Power            : -1.86 dBm
+   RX Power            : -2.04 dBm
+Waystream
+   Bias Current        : 23.91 mA
+   TX Power            : -0.20 dBm
+   RX Power            : -0.57 dBm
