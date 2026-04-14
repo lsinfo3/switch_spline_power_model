@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo apt install -y python3-venv git
 python3 -m venv venv
-#git clone https://github.com/lsinfo3/switch_spline_power_model.git
+git clone https://github.com/lsinfo3/switch_spline_power_model.git
 source venv/bin/activate
 python3 -m pip install -r ./switch_spline_power_model/requirements.txt
 cwd=$(pwd)
