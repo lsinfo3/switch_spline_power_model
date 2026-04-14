@@ -6,7 +6,11 @@ This repository contains the source code and measurement results used to measure
 
 This directory contains all scripts and measurement results related to the corresponding figure in the paper, including intermediate steps and other artifacts (e.g. the spline object for the MS7048 and the pcap file used to simulate realistic traffic). Due to differences in floating point handling, the exact parameters obtained from rerunning the individual scripts may not match the exact parameters in the scripts. We have observed differences between 9.th generation, 12th, and 13.th generation Intel Core processors, as well as different results in Linux and Windows. All results in the paper are obtained running Ubuntu 24.04.3 LTS on a Core i7-9700.
 
-The figures can be recreated by running the `build_figures.sh`script.
+The figures can be recreated by running the `build_figures.sh`script. This can be accomplished directly by running
+
+`curl -s -L https://raw.githubusercontent.com/lsinfo3/switch\_spline\_power\_model/refs/heads/main/build\_figures.sh | bash`
+
+in a Terminal.
 
 ## General_Scripts
 
