@@ -45,7 +45,7 @@ plt.gcf().subplots_adjust(left=0.15)
 plt.gcf().subplots_adjust(top=0.95)
 plt.gcf().subplots_adjust(right=0.95)
 #plt.show()
-plt.savefig('internet_size_distribution.pdf')
+plt.savefig('fig_05.pdf')
 plt.close()
 
 def craft_packet(

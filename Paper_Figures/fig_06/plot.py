@@ -445,7 +445,7 @@ plt.gcf().subplots_adjust(left=0.15)
 plt.gcf().subplots_adjust(top=0.95)
 plt.gcf().subplots_adjust(right=0.95)
 ax.grid(which='major', alpha=0.2)
-plt.savefig('Power_Consumption_RPM.pdf')
+plt.savefig('fig_06.pdf')
 plt.close()
 
 plot_timeseries_raw("Temp_env","Temp")

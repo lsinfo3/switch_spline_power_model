@@ -2,7 +2,7 @@ import csv
 import json
 import math
 import random
-
+import pickle
 import cv2 as cv
 import matplotlib.pyplot as plt
 import numpy as np
@@ -152,7 +152,7 @@ plt.gcf().subplots_adjust(left=0.15)
 plt.gcf().subplots_adjust(top=0.95)
 plt.gcf().subplots_adjust(right=0.95)
 #plt.show()
-plt.savefig('raw_measurements.pdf')
+plt.savefig('fig_07.pdf')
 plt.close()
 
 
@@ -180,6 +180,8 @@ measurement_uncertainty=(((0.001 * 300) * (0.001 * 50) * 2)**2)*2 + 0.092544**2
 uncertainty=math.sqrt(measurement_uncertainty+np.max(std_devs)**2)
 
 spline = SmoothBivariateSpline(brs, prs, real_powers, kx=1, ky=1,s=1-uncertainty)
+with open("spline.pkl","wb") as pickle_file:
+    pickle.dump(spline,pickle_file)
 x_new = np.linspace(0, 1, 1000)  # 100 points from 0 to 10 on x-axis
 y_new = np.linspace(0, 1, 1000)  # 100 points from 0 to 10 on y-axis
 # Interpolate Z values on the new grid
@@ -272,7 +274,7 @@ plt.gcf().subplots_adjust(left=0.15)
 #plt.gcf().subplots_adjust(top=0.8)
 plt.gcf().subplots_adjust(top=0.95)
 plt.gcf().subplots_adjust(right=0.95)
-plt.savefig("final_interpolation.png", dpi=600)
+plt.savefig("fig_08.png", dpi=600)
 plt.close()
 
 ### Model Evaluation
@@ -493,7 +495,7 @@ plt.gcf().subplots_adjust(left=0.15)
 #plt.gcf().subplots_adjust(top=0.8)
 plt.gcf().subplots_adjust(top=0.95)
 plt.gcf().subplots_adjust(right=0.95)
-plt.savefig("comparison_total.pdf")
+plt.savefig("fig_09.pdf")
 plt.close()
 
 mse=(1/len(measurement_results))*np.nansum([(measurement_results[x]-model_results[x])**2 for x in range(len(measurement_results))])

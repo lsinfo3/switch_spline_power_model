@@ -181,7 +181,7 @@ ax.set_xticks([i for i in tick_range], [scenarios[i][1] for i in tick_range])
 #plt.xticks(rotation=30)
 ax.grid(which='major', alpha=0.2)
 # plt.show()
-plt.savefig('realistic_traffic.pdf')
+plt.savefig('fig_10.pdf')
 plt.close()
 
 mses = []
