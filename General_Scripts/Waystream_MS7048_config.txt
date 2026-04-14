@@ -1,0 +1,381 @@
+! version ibos-cma-7.5.9-ED-R (ibos-cma-7.5.9-ED-R.bz2)
+interface ethernet0/1
+ vlan member 3
+ no vlan member 2
+ vlan untagged 3
+ no shutdown
+ port uplink
+ exit
+
+interface ethernet0/2
+ vlan member 2
+ vlan untagged 2
+ no shutdown
+ port uplink
+ exit
+
+interface ethernet0/3
+ vlan member 26
+ vlan untagged 26
+ no vlan member 2
+ no shutdown
+ port uplink
+ exit
+
+interface ethernet0/4
+ vlan member 28
+ vlan untagged 28
+ no vlan member 2
+ no shutdown
+ port uplink
+ exit
+
+interface ethernet1/1
+ vlan member 2
+ vlan untagged 2
+ no shutdown
+ exit
+
+interface ethernet1/2
+ vlan member 3
+ vlan untagged 3
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/3
+ vlan member 27
+ vlan untagged 27
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/4
+ vlan member 4
+ vlan untagged 4
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/5
+ vlan member 4
+ vlan untagged 4
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/6
+ vlan member 5
+ vlan untagged 5
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/7
+ vlan member 5
+ vlan untagged 5
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/8
+ vlan member 6
+ vlan untagged 6
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/9
+ vlan member 6
+ vlan untagged 6
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/10
+ vlan member 7
+ vlan untagged 7
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/11
+ vlan member 7
+ vlan untagged 7
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/12
+ vlan member 8
+ vlan untagged 8
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/13
+ vlan member 8
+ vlan untagged 8
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/14
+ vlan member 9
+ vlan untagged 9
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/15
+ vlan member 9
+ vlan untagged 9
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/16
+ vlan member 10
+ vlan untagged 10
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/17
+ vlan member 10
+ vlan untagged 10
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/18
+ vlan member 11
+ vlan untagged 11
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/19
+ vlan member 11
+ vlan untagged 11
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/20
+ vlan member 12
+ vlan untagged 12
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/21
+ vlan member 12
+ vlan untagged 12
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/22
+ vlan member 13
+ vlan untagged 13
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/23
+ vlan member 13
+ vlan untagged 13
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/24
+ vlan member 14
+ vlan untagged 14
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/25
+ vlan member 14
+ vlan untagged 14
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/26
+ vlan member 15
+ vlan untagged 15
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/27
+ vlan member 15
+ vlan untagged 15
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/28
+ vlan member 16
+ vlan untagged 16
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/29
+ vlan member 16
+ vlan untagged 16
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/30
+ vlan member 17
+ vlan untagged 17
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/31
+ vlan member 17
+ vlan untagged 17
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/32
+ vlan member 18
+ vlan untagged 18
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/33
+ vlan member 18
+ vlan untagged 18
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/34
+ vlan member 19
+ vlan untagged 19
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/35
+ vlan member 19
+ vlan untagged 19
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/36
+ vlan member 20
+ vlan untagged 20
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/37
+ vlan member 20
+ vlan untagged 20
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/38
+ vlan member 21
+ vlan untagged 21
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/39
+ vlan member 21
+ vlan untagged 21
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/40
+ vlan member 22
+ vlan untagged 22
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/41
+ vlan member 22
+ vlan untagged 22
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/42
+ vlan member 23
+ vlan untagged 23
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/43
+ vlan member 23
+ vlan untagged 23
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/44
+ vlan member 24
+ vlan untagged 24
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/45
+ vlan member 24
+ vlan untagged 24
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/46
+ vlan member 25
+ vlan untagged 25
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/47
+ vlan member 25
+ vlan untagged 25
+ no vlan member 2
+ no shutdown
+ exit
+
+interface ethernet1/48
+ vlan member 26
+ vlan untagged 26
+ no vlan member 2
+ no shutdown
+ exit
+
+interface vlan1
+ no shutdown
+ exit
+
+interface vlan2
+ ip address 10.0.0.1 255.255.255.0
+ no shutdown
+ exit
+
+management-vlan 2
+
+username greenfield password $1$Zuf6$Y0nn.kVN7d3o.ZPC2YXcu/ encrypted
+username greenfield privilege admin
+!end
